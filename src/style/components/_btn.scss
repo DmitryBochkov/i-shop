@@ -1,0 +1,39 @@
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.66vw 1.32vw;
+  border: none;
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.83vmax;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #7e7e7e;
+  border-radius: 4px;
+  overflow: hidden;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
+  &--sign-in {
+    svg {
+      margin-right: 1.83vmax;
+      width: 1.33vmax;
+      height: 1.33vmax;
+      fill: #7e7e7e;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #eaeaea;
+      color: $dark;
+
+      svg {
+        fill: $dark;
+      }
+    }
+  }
+}
