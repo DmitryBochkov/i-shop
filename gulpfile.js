@@ -81,10 +81,10 @@ gulp.task('style:build', function () {
     .pipe(prefixer({
             browsers: ['last 5 versions']
         }))
-	.pipe(gulp.dest(path.dist.css))
-    .pipe(cssmin())
-	.pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest(path.dist.css))
+  	.pipe(gulp.dest(path.dist.css))
+    // .pipe(cssmin())
+  	// .pipe(rename({ suffix: '.min' }))
+    // .pipe(gulp.dest(path.dist.css))
     .pipe(reload({stream: true}));
 });
 

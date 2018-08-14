@@ -1,0 +1,38 @@
+.banner {
+  background-image: radial-gradient(circle 55px at 71.08% 15.28%, #d7e8ec 0%, #c2d1d1 100%);
+
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/brand.png);
+    background-repeat: no-repeat;
+    background-position: 85% 0;
+    background-size: 264px 200px;
+  }
+
+  &__content {
+    padding: 34px 0 24px;
+    width: 29%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 0.9;
+    color: #3c3d41;
+  }
+
+  &__text {
+    color: #666;
+    font-size: 14px;
+
+    p {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+}

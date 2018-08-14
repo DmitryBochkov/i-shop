@@ -31,14 +31,81 @@
           Sign In
         </div>
 
+        <div class="info-box info-box--location" id="info-box">
+          <span class="info-box__text">Location</span>
+          <select class="info-box__option">
+            <option value="usa">USA</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="poland">Germany</option>
+          </select>
+        </div>
+
+        <div class="logo">
+          <a href="#">
+            I-shop
+          </a>
+        </div>
+
+        <div class="info-box info-box--currency" id="info-box">
+          <span class="info-box__text">Currency</span>
+          <select class="info-box__option">
+            <option value="usa">US DOLLAR</option>
+            <option value="ukraine">UAH</option>
+            <option value="poland">EURO</option>
+          </select>
+        </div>
+
+        <div id="cart" class="btn btn--cart">
+          <svg
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path fill-rule="evenodd"
+           d="M14.924,4.644 L13.331,8.854 C13.112,9.432 12.493,9.851 11.859,9.851 L5.533,9.851 C4.856,9.851 4.242,9.366 4.104,8.724 L2.563,1.555 L0.007,1.555 L0.007,0.000 L2.681,0.000 C3.357,0.000 3.972,0.484 4.110,1.127 L4.536,3.111 L13.820,3.111 C14.226,3.111 14.584,3.284 14.801,3.587 C15.019,3.889 15.064,4.274 14.924,4.644 ZM4.870,4.667 L5.650,8.295 L11.859,8.295 L13.210,4.667 L4.870,4.667 ZM6.067,10.889 C6.952,10.889 7.671,11.587 7.671,12.444 C7.671,13.302 6.952,14.000 6.067,14.000 C5.183,14.000 4.463,13.302 4.463,12.444 C4.463,11.587 5.183,10.889 6.067,10.889 ZM11.682,10.889 C12.566,10.889 13.286,11.587 13.286,12.444 C13.286,13.302 12.566,14.000 11.682,14.000 C10.797,14.000 10.078,13.302 10.078,12.444 C10.078,11.587 10.797,10.889 11.682,10.889 Z"/>
+          </svg>
+        Cart
+      </div>
+
 
         </div>
       </div>
 
       <div class="header-menu">
-        <div class="wrap"></div>
+        <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+          <nav class="main-nav">
+            <ul class="menu menu--main-nav">
+              <li class="menu__item"><a class="menu__link" href="#">MENS</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">WOMENS</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">GOODS</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">ACCESSORIES</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">BRANDS</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
+            </ul>
+          </nav>
+
+          <div class="search-button">
+            <svg
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path fill-rule="evenodd"
+             d="M12.076,7.001 C12.076,9.782 9.854,12.044 7.117,12.044 C4.379,12.044 2.135,9.782 2.135,7.001 C2.135,4.202 4.361,1.938 7.117,1.938 C9.854,1.938 12.076,4.220 12.076,7.001 L12.076,7.001 ZM12.966,11.284 C13.609,10.042 13.956,8.521 13.956,7.001 C13.956,2.811 11.241,0.062 7.117,0.062 C2.993,0.062 0.260,2.811 0.260,7.001 C0.260,11.191 2.993,13.924 7.117,13.924 C8.613,13.924 10.110,13.568 11.351,12.938 L15.342,17.196 L17.233,15.306 L12.966,11.284 L12.966,11.284 Z"/>
+            </svg>
+          </div>
+        </div>
       </div>
     </header>
+
+    <div class="banner"><!-- begin banner -->
+      <div class="wrap">
+        <div class="banner__content"><!-- begin banner__content -->
+           <h2 class="banner__title">Our Legacy</h2>
+           <div class="banner__text">
+             <p>The Swedish brand places strong emphasis on quality, ensuring the clothes have timeless quality.</p>
+           </div>
+        </div><!-- end banner__content -->
+
+      </div>
+    </div><!-- end banner -->
+
 
 
     <script src="js/main.js"></script>

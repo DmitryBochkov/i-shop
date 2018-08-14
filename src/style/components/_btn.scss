@@ -36,4 +36,29 @@
       }
     }
   }
+
+  &--cart {
+    color: #8ad592;
+    border: 1px solid #8ad592;
+    svg {
+      position: relative;
+      top: 2px;
+      margin-right: 1.83vmax;
+      width: 1.33vmax;
+      height: 1.33vmax;
+      fill: #8ad592;;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #8ad592;
+      color: $dark;
+
+      svg {
+        fill: $dark;
+      }
+    }
+  }
 }

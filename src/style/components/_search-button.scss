@@ -1,0 +1,12 @@
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -9px;
+  cursor: pointer;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}

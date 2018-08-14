@@ -1,0 +1,20 @@
+.info-box {
+  // margin-left: 5.25vmax;
+  &__text {
+    color: #aaa;
+    font-family: $font-secondary;
+  }
+
+  &__option {
+    margin-left: 1.66vmax;
+    font-family: $font-primary;
+    font-size: 0.83vmax;
+    font-weight: 700;
+    background-color: $dark;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    appearance:none;
+    cursor: pointer;
+  }
+}
