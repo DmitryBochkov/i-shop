@@ -61,4 +61,18 @@
       }
     }
   }
+
+  &--load-more {
+    width: 100%;
+    padding-top: 0.7vmax;
+    padding-bottom: 0.7vmax;
+    justify-content: center;
+    background-color: #b8c6c7;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    // font-size: 1.25vmax;
+    font-size: 15px;
+
+  }
 }

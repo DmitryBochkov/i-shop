@@ -720,6 +720,20 @@ body {
   fill: #2e2e30;
 }
 
+.btn--load-more {
+  width: 100%;
+  padding-top: 0.7vmax;
+  padding-bottom: 0.7vmax;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b8c6c7;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  font-size: 15px;
+}
+
 .info-box__text {
   color: #aaa;
   font-family: "PT Serif", serif;
@@ -855,4 +869,119 @@ body {
 .banner__text p {
   margin: 0;
   margin-bottom: 10px;
+}
+
+.left-bar {
+  width: 19.16vw;
+}
+
+.main-section {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: #eaeaea;
+}
+
+.main-content {
+  width: 60.83vw;
+  padding: 0 10px;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+  padding-bottom: 15px;
+}
+
+.product {
+  width: 33.33%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.product__tag {
+  position: absolute;
+  display: block;
+  padding: 5px 7px;
+  right: 15px;
+  top: 25px;
+  background-color: #3a3d3f;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.product__tag--new {
+  background-color: #84ce8b;
+}
+
+.product__link {
+  position: relative;
+  display: block;
+  padding: 25px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #3a3d3f;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+.product__link:hover, .product__link:active, .product__link:focus {
+  -webkit-box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product__inner {
+  width: 160px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  color: #3a3d3f;
+}
+
+.product__image {
+  margin-bottom: 15px;
+}
+
+.product__image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.product__title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.product__desc {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #838c8e;
+  font-family: "PT Serif", serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.product__price {
+  margin: 0;
+  font-size: 13px;
 }
