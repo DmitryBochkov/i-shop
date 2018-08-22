@@ -985,3 +985,186 @@ body {
   margin: 0;
   font-size: 13px;
 }
+
+.filter {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.filter__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  color: #3c3d41;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.filter__title svg {
+  width: 5px;
+  height: 8px;
+  fill: #ccc;
+}
+
+.filter__checkbox-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 18px;
+  list-style: none;
+}
+
+.filter__checkbox-list li {
+  padding: 5px 4px;
+}
+
+.filter__checkbox-list label {
+  display: block;
+  width: 2.66vmax;
+  height: 2.66vmax;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.filter__checkbox-list input[type="checkbox"] {
+  display: none;
+}
+
+.filter--menu {
+  margin-top: 0;
+}
+
+.filter--menu.open .filter__title svg {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  fill: #838d8f;
+}
+
+.filter--menu.open .filter__content {
+  height: auto;
+  overflow: auto;
+}
+
+.filter--menu .filter__content {
+  height: 0;
+  overflow: hidden;
+  background-color: #838d8f;
+}
+
+.filter--menu .filter__list {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  color: #daddde;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.filter--menu .filter__list a {
+  display: block;
+  padding: 5px 20px;
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.filter--menu .filter__list a:hover, .filter--menu .filter__list a:active, .filter--menu .filter__list a:focus {
+  color: #fff;
+}
+
+.filter--colors .filter__checkbox-list label.blue {
+  background-color: #1476f1;
+}
+
+.filter--colors .filter__checkbox-list label.green {
+  background-color: #82d889;
+}
+
+.filter--colors .filter__checkbox-list label.tuna {
+  background-color: #3c3d41;
+}
+
+.filter--colors .filter__checkbox-list label.oslo-gray {
+  background-color: #838d8f;
+}
+
+.filter--colors .filter__checkbox-list label.submarine {
+  background-color: #b8c6c7;
+}
+
+.filter--colors .filter__checkbox-list label.brown {
+  background-color: #ce954a;
+}
+
+.filter--colors .filter__checkbox-list label.waterloo {
+  background-color: #7b7f91;
+}
+
+.filter--colors .filter__checkbox-list label.boulder {
+  background-color: #777;
+}
+
+.filter--colors .filter__checkbox-list label.silver {
+  background-color: #bdbdbd;
+}
+
+.filter--colors .filter__checkbox-list label.galllery-gray {
+  background-color: #eee;
+}
+
+.filter--colors .filter__checkbox-list input[type="checkbox"]:checked + label {
+  -webkit-box-shadow: 0 0 5px 2px rgba(171, 171, 171, 0.85);
+          box-shadow: 0 0 5px 2px rgba(171, 171, 171, 0.85);
+  border: 1.5px solid #fff;
+}
+
+.filter--sizes .filter__checkbox-list label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+  color: #3c3d41;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.filter--sizes .filter__checkbox-list input[type="checkbox"]:checked + label {
+  background-color: #838d8f;
+  color: #fff;
+}

@@ -54,7 +54,7 @@ gulp.task('html:build', function () {
 
 gulp.task('js:build', function() {
 	return gulp.src([
-		// 'node_modules/path...',
+		'node_modules/jquery/dist/jquery.min.js',
 		path.src.js, // Always at the end
 		])
   .pipe(babel({
